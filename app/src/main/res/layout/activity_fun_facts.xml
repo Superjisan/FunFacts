@@ -18,13 +18,14 @@
         android:textSize="24sp"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/showFactButton"
-        android:layout_alignStart="@+id/showFactButton" />
+        android:layout_alignStart="@+id/showFactButton"
+        android:layout_marginTop="43dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ants strech in the morning!"
-        android:id="@+id/showFactButton"
+        android:id="@+id/factTextView"
         android:textSize="24sp"
         android:textColor="@android:color/white"
         android:layout_centerVertical="true"
@@ -34,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Show Another Fun Fact"
-        android:id="@+id/button"
+        android:id="@+id/showFactButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/white" />

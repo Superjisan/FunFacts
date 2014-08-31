@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class FunFactsActivity extends Activity {
@@ -37,6 +38,9 @@ public class FunFactsActivity extends Activity {
         };
 
         showFactButton.setOnClickListener(listener);
+
+        //Toast.makeText(this, "YAY! our activity was created", Toast.LENGTH_LONG).show();
+        
     }
 
 }

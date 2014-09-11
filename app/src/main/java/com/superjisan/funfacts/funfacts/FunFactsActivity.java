@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 public class FunFactsActivity extends Activity {
 
+    public static final String TAG = FunFactsActivity.class.getSimpleName();
+
     private FactBook mFactBook = new FactBook();
     private ColorWheel mColorWheel = new ColorWheel();
 
@@ -41,7 +43,7 @@ public class FunFactsActivity extends Activity {
         showFactButton.setOnClickListener(listener);
 
         //Toast.makeText(this, "YAY! our activity was created", Toast.LENGTH_LONG).show();
-        Log.d("FunFactsActivity", "Logging from the onCreate method");
+        Log.d(TAG, "Logging from the onCreate method");
     }
 
 }
